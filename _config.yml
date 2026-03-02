@@ -1,21 +1,68 @@
+# ================================
+# Site Settings
+# ================================
+
 title: Daniel Jamil
 description: OCI & OCVS | VMware Architect
 
-url: "https://danieljamil.com"
+url: "https://daniel-jamil-com.github.io"
 baseurl: ""
 
-# GitHub Pages / Jekyll basics
-markdown: kramdown
-permalink: /:categories/:year/:month/:day/:title/
 timezone: Europe/Madrid
+lang: en
 
-# Better excerpts for cards
+# ================================
+# Build Settings
+# ================================
+
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:year/:month/:day/:title/
+
+future: false
 excerpt_separator: "<!--more-->"
 
-# Build hygiene
-future: false
+# ================================
+# GitHub Pages Defaults
+# ================================
 
-# Optional but recommended on GitHub Pages
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+
+# ================================
+# Author (optional but recommended)
+# ================================
+
+author:
+  name: Daniel Jamil
+  role: Virtualization & Cloud Architect
+  location: Europe
+  bio: Enterprise OCI & OCVS architecture, migration frameworks, and infrastructure modernization.
+  links:
+    - label: LinkedIn
+      url: https://linkedin.com
+    - label: GitHub
+      url: https://github.com/daniel-jamil-com
+
+# ================================
+# SEO Defaults
+# ================================
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/og-image.png
+      layout: post
+
+# ================================
+# Exclude from Build
+# ================================
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
