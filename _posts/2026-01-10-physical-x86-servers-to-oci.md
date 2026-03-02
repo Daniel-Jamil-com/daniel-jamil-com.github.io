@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Physical x86 Servers to OCI"
+title: "Physical x86 Server migration to OCI"
 date: 2026-01-10
 tags: [migration, oci, ocvs, physical]
 guide: true

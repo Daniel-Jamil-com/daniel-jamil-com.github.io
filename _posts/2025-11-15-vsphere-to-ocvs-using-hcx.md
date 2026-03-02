@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "VMware vSphere to Oracle Cloud VMware Solution (OCVS) using VMware HCX"
+title: "VMware vSphere migration to Oracle Cloud VMware Solution (OCVS) using VMware HCX"
 date: 2026-11-15
 tags: [migration, vmware, ocvs, oci, hcx]
 guide: true

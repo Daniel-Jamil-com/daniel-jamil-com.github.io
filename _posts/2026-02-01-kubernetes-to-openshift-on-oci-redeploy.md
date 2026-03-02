@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kubernetes to OpenShift on OCI using Redeployment"
+title: "Kubernetes to OpenShift migration to OCI using Redeployment"
 date: 2026-02-1
 tags: [migration, openshift, kubernetes, oci]
 guide: true

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hyper-V / KVM to Oracle Cloud VMware Solution (OCVS)"
+title: "Hyper-V / KVM migration to Oracle Cloud VMware Solution (OCVS)"
 date: 2026-01-20
 tags: [migration, ocvs, vmware, hyperv, kvm]
 guide: true

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mixed Containerized and VM Workloads to OpenShift Virtualization on OCI"
+title: "Mixed Containerized and VM Workloads migration to OpenShift Virtualization on OCI"
 date: 2026-01-19
 tags: [migration, openshift, virtualization, oci, containers]
 guide: true

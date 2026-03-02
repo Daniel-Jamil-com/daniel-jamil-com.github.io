@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "VMware vSphere to OCI Native Compute Instances"
+title: "VMware vSphere migration to OCI Native Compute Instances"
 date: 2025-11-28
 tags: [migration, vmware, oci]
 guide: true

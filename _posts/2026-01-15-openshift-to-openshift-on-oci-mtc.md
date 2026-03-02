@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "OpenShift to OpenShift on OCI using Migration Toolkit for Containers (MTC)"
+title: "OpenShift migration to OpenShift on OCI using Migration Toolkit for Containers (MTC)"
 date: 2026-01-15
 tags: [migration, openshift, containers, oci]
 guide: true

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Other Public Clouds to OCI Native Compute Instances"
+title: "Other Public Clouds migration to OCI Native Compute Instances"
 date: 2025-09-01
 tags: [migration, oci, multicloud, aws, azure, gcp]
 guide: true

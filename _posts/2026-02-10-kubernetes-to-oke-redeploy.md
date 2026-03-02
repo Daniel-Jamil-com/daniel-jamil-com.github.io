@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Kubernetes to Oracle Kubernetes Engine (OKE) using Redeployment"
+title: "Kubernetes migration to Oracle Kubernetes Engine (OKE) using Redeployment"
 date: 2026-02-10
 tags: [migration, oke, kubernetes, oci]
 guide: true

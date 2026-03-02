@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AWS EC2 to OCI Native Compute Instances"
+title: "AWS EC2 migration to OCI Native Compute Instances"
 date: 2025-09-15
 tags: [migration, oci, aws, multicloud]
 guide: true
