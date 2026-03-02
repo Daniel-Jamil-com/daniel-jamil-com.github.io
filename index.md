@@ -7,14 +7,14 @@ title: Home
   <h1>Cloud Architecture. Migration. Strategy.</h1>
   <p>Deep dives into OCI, OCVS, VMware architecture patterns, Migration and DR guides.</p>
 
-<div class="hero-badges">
-  <a class="badge" href="{{ '/tag/oci/' | relative_url }}">OCI</a>
-  <a class="badge" href="{{ '/tag/ocvs/' | relative_url }}">OCVS</a>
-  <a class="badge" href="{{ '/tag/vmware/' | relative_url }}">VMware</a>
-  <a class="badge" href="{{ '/tag/hcx/' | relative_url }}">HCX</a>
-  <a class="badge" href="{{ '/tag/migration/' | relative_url }}">Migration</a>
-  <a class="badge" href="{{ '/tag/dr/' | relative_url }}">DR</a>
-</div>
+  <div class="hero-badges">
+    <a class="badge" href="{{ '/tag/oci/' | relative_url }}">OCI</a>
+    <a class="badge" href="{{ '/tag/ocvs/' | relative_url }}">OCVS</a>
+    <a class="badge" href="{{ '/tag/vmware/' | relative_url }}">VMware</a>
+    <a class="badge" href="{{ '/tag/hcx/' | relative_url }}">HCX</a>
+    <a class="badge" href="{{ '/tag/migration/' | relative_url }}">Migration</a>
+    <a class="badge" href="{{ '/tag/dr/' | relative_url }}">DR</a>
+  </div>
 </section>
 
 <h2 class="section-title">Workload migration framework</h2>
@@ -39,22 +39,35 @@ title: Home
 <h2 id="articles" class="section-title">Latest articles</h2>
 
 {% for post in site.posts limit:6 %}
-<div class="post-card">
-  <div class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</div>
-  <h3><a class="post-link" href="{{ post.url }}">{{ post.title }}</a></h3>
-  {% if post.excerpt %}
-    <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
-  {% endif %}
-</div>
+  <div class="post-card">
+    <div class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</div>
+    <h3><a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+    {% if post.excerpt %}
+      <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+    {% endif %}
+  </div>
 {% endfor %}
 
 <h2 class="section-title">About</h2>
 <div class="post-card">
   <p>
-    I’m Daniel — a virtualization & cloud architect at Oracle focused on <strong>Oracle Cloud VMware Solution (OCVS)</strong>,
-    <strong>OCI</strong> and enterprise migrations. This blog is a practical notebook: design decisions, lessons learned,
+    I’m Daniel — a VMware Black Belt and cloud architect at Oracle, focused on <strong>Oracle Cloud VMware Solution (OCVS)</strong>,
+    <strong>OCI</strong>, and enterprise migrations to OCI. This blog is my practical notebook: clear design decisions, lessons learned,
     and repeatable patterns you can apply in real projects.
   </p>
+
+  <p style="margin-bottom:0;">
+    Here you’ll find:
+  </p>
+  <ul style="margin-top:0.5rem;">
+    <li><strong>Deep dives into OCVS</strong></li>
+    <li><strong>What’s new in OCI</strong></li>
+    <li><strong>OCI &amp; OCVS architecture</strong> (reference designs, trade-offs, and best practices)</li>
+    <li><strong>Infrastructure migration to OCI</strong> (frameworks, tooling, and execution tips)</li>
+    <li><strong>Disaster recovery architectures and solutions</strong></li>
+    <li><strong>Practical recommendations</strong> you can reuse across projects</li>
+  </ul>
+
   <p class="muted" style="margin:0;">
     Expect content on: landing zones, connectivity, DNS, vSphere/NSX, HCX, DR architectures, sizing and performance.
   </p>
@@ -62,13 +75,13 @@ title: Home
 
 <h2 class="section-title">Popular topics</h2>
 <div class="hero-badges section-spacing">
-  <a class="badge" href="/tag/ocvs/">OCVS</a>
-  <a class="badge" href="/tag/oci/">OCI</a>
-  <a class="badge" href="/tag/vmware/">VMware</a>
-  <a class="badge" href="/tag/hcx/">HCX</a>
-  <a class="badge" href="/tag/nsx/">NSX</a>
-  <a class="badge" href="/tag/migration/">Migration</a>
-  <a class="badge" href="/tag/dr/">DR</a>
+  <a class="badge" href="{{ '/tag/ocvs/' | relative_url }}">OCVS</a>
+  <a class="badge" href="{{ '/tag/oci/' | relative_url }}">OCI</a>
+  <a class="badge" href="{{ '/tag/vmware/' | relative_url }}">VMware</a>
+  <a class="badge" href="{{ '/tag/hcx/' | relative_url }}">HCX</a>
+  <a class="badge" href="{{ '/tag/nsx/' | relative_url }}">NSX</a>
+  <a class="badge" href="{{ '/tag/migration/' | relative_url }}">Migration</a>
+  <a class="badge" href="{{ '/tag/dr/' | relative_url }}">DR</a>
 </div>
 
 <h2 class="section-title">Get updates</h2>
